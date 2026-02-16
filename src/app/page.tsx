@@ -270,7 +270,7 @@ export default function Home() {
               <h2 className="mb-3 text-lg font-semibold">Usage</h2>
               <p className="mb-3 text-sm text-slate-400">Add this to your HTML head:</p>
               <pre className="overflow-x-auto rounded-lg bg-slate-950 p-4 text-xs sm:text-sm">
-                <code className="text-green-400">
+                <code className="break-all whitespace-pre-wrap text-green-400">
 {`<meta property="og:image" content="${typeof window !== 'undefined' ? window.location.origin : ''}${imageUrl}" />
 <meta name="twitter:image" content="${typeof window !== 'undefined' ? window.location.origin : ''}${imageUrl}" />`}
                 </code>
